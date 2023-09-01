@@ -77,7 +77,7 @@ const Slideshow = () => {
               priority
             />
             {showLogo && (
-              <div className='absolute top-5 left-7 text-3xl'>
+              <div className='absolute top-5 left-5 md:left-7 text-3xl'>
                 <p>blu.</p>
               </div>
             )}

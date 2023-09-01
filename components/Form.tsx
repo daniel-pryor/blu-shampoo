@@ -13,7 +13,7 @@ const Form = ({
   const [emailError, setEmailError] = useState<string>('')
 
   const handleEmailChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const email = e.target.value
+    const email = e.target.value.toLowerCase()
     setMember({ ...member, email })
     if (!submitting) {
       validateEmail(email)
@@ -37,9 +37,7 @@ const Form = ({
   return (
     <div>
       <div className='text-center'>
-        <h1 className='md:text-5xl text-4xl bold text-white '>
-          join our waitlist
-        </h1>
+        <h1 className='md:text-5xl text-4xl bold '>join our waitlist</h1>
       </div>
       <section>
         <form onSubmit={handleSubmit} className='flex flex-col'>
