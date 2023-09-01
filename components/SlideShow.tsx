@@ -78,7 +78,7 @@ const Slideshow = () => {
             />
             {showLogo && (
               <div className='absolute top-5 left-7 text-3xl'>
-                <p>Blu.</p>
+                <p>blu.</p>
               </div>
             )}
             <div className='flex flex-col items-center justify-center absolute gap-2'>

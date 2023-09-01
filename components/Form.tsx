@@ -79,7 +79,7 @@ const Form = ({
             <button
               type='submit'
               disabled={isSubmitDisabled}
-              className='px-5 py-1.5 text-xl border-2 border-solid text-white w-[100px]'
+              className='px-5 py-1.5 text-xl border-2 border-solid'
             >
               {submitting ? `Loading...` : 'Join'}
             </button>
