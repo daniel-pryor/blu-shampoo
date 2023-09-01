@@ -8,13 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'hero-image': "url('/hero.png')",
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily: {
+        Taviraj: ['Taviraj'],
+      },
+      colors: {
+        'primary-white': {
+          DEFAULT: '#fffff5',
+          100: '#F5F8FF',
+        },
       },
     },
+    plugins: [],
   },
-  plugins: [],
 }
 export default config
